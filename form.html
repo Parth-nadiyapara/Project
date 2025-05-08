@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+    <style>
+        body{
+            background-color:white;
+        }
+        h1{
+            color:darkgray;
+        }
+        table{
+            background-color: darkgray;
+        }
+        @media only screen and (max-width: 320px) {
+          
+        }
+    </style>
+</head>
+<center>
+<body>
+    <!-- <h2>
+        SPEED COMPUTERS
+    </h2>  -->
+        <!-- <hr> -->
+        <img src="\new-logo.png" width="230px" height="75px">
+        <h1>
+            Admission Form 
+        </h1>
+    <table cellspacing="11">
+        <form>
+            <tr>
+                <td>
+                    First Name :
+                </td>
+                <td>
+                  <input type="text" width="100px" autofocus required >
+                </td>
+                <td>
+                    Last Name :
+                </td>
+                <td>
+                    <input type="text" width="100px" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Father's Name :
+                </td>
+                <td colspan="3">
+                    <input type="text" width="100px" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address :
+                </td>
+                <td>
+                    <textarea name="add" required>
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email :
+                </td>
+                <td>
+                    <input type="email" required placeholder="Enter your Email">
+                </td>
+                <!-- <td>
+                    Password :
+                </td>
+                <td>
+                    <input type="password" minlength="6" maxlength="10" required placeholder="Enter your password">
+                </td> -->
+            </tr>
+            <tr>
+                <td>
+                    Student mo. :
+                </td>
+                <td>
+                    <input type="text" minlength="10" maxlength="10">
+                </td>
+                <td>
+                    parent's Mo. :
+                </td>
+                <td>
+                    <input type="text" required minlength="10" maxlength="10">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    Date Of Birth :
+                </td>
+                <td>
+                    <input type="date" required>
+                </td>
+                <td>
+                    Gender :
+                </td>
+                <td>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                    <input type="radio" name="Gender">Other
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    School/Collage
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    Year :
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    City :
+                </td>
+                <td>
+                <select>
+                    <option value="Select City">Select City</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Ahemdabad">Ahemdabad</option>
+                    <option value="Surat">Surat</option>
+                </select>
+                </td>
+                <td>
+                    Designation :    
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Course Name :
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    Batch Time :
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Course Duration :
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Attached Document No. :
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
